@@ -39,7 +39,7 @@
             // 2.打开一个 url 连接对象
             httpRequest.open("POST",url,true);
             // 3.POST请求需要设置请求头
-            httpRequest.setRequestHeader();
+            httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             // 4.发起请求 设置请求参数 部门 id
             httpRequest.send("departId = " + departId);
             // 5.设置请求响应的监听器
