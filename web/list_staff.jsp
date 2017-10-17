@@ -27,6 +27,7 @@
     <option value="-1">---请选择---</option>
 
 </select>
+
 <script type="text/javascript">
     /*创建 ajax 请求对象*/
     function createXMLHttpRequest() {
